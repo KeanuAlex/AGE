@@ -6,5 +6,6 @@ for i in range(201, 1000):
         if '222' in s:
             s = s.replace('222', '1', 1)
     if s.count('1') == len(s):
+        # или s.count('2') == 0 :
         print(i)
         break
