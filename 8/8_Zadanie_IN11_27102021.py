@@ -8,3 +8,6 @@ for a in s:
                 count += 1
                 if st == "вата":
                     print(count, st)
+
+
+                    
