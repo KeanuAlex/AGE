@@ -1,4 +1,4 @@
-def delitel(x):
+def countDel(x):
     d = []
     count = 0
     for i in range(2, x//2+1):
@@ -9,4 +9,4 @@ def delitel(x):
 
 
 for i in range(174457, 174505):
-    delitel(i)
+    countDel(i)
