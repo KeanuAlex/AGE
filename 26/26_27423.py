@@ -4,7 +4,6 @@ S, _ = map(int, data[0].split())
 del data[0]
 data = sorted(list(map(int,data)))
 total = 0
-
 for i, val in enumerate(data):
     if total + val > S: break
     total +=val
